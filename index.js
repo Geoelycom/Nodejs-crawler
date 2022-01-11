@@ -17,15 +17,29 @@ puppeteer
 })
 .then(html => {
   const $ = cheerio.load(html);
-  const membersOfsubReddit = []
-  $('._3XFx6CfPlg-4Usgxm0gK8R').each(function(){
-    membersOfsubReddit.push({
-      number: $(this).text()
+  const subRedditDataPoints = []
+  $('._3_HlHJ56dAfStT19Jgl1bF ._3XFx6CfPlg-4Usgxm0gK8R').each(function(){
+    subRedditDataPoints.push({
+      online: $(this).text()
+    })
+    $('.nEdqRRzLEN43xauwtgTmj ._3XFx6CfPlg-4Usgxm0gK8R').each(function(){
+      subRedditDataPoints.push({
+        members: $(this).text()
+      })
     })
   })
-  console.log(membersOfsubReddit)
+$('#IdCard--CakeDay--undefined--t5_2s3qj').each(function(){
+  subRedditDataPoints.push({
+    timeStamp: new Date()
+  })
+})
+
+
+  console.log(subRedditDataPoints)
 
 })
 .catch(function(err){
   console.log(err)
 })
+
+
