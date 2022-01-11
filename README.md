@@ -28,7 +28,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Usage
 
-- For anyone who wants to information on cryptocurrencies.
+- For anyone who wants information on cryptocurrencies.
 - Any one looking for inspiration on how to build their web scrapper/crawler
 
 
