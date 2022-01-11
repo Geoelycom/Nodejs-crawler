@@ -1,23 +1,62 @@
+## cryptocurrency web crawler/scrapper .
 
-# Submission Detials
+A simple minimalistic Nodejs web crawler on cryptocurrencies
 
-Please read the following details before you click 'Mark as Done' to your submission 
-1. Make sure that all your code is merged to the Main branch
-2. Include all files necessary to run your app, NOT just the source code, except for the **node_modules** folder
-3. Here is an example of how we will test your code 
+Topics
+Resources
+ All informations have been crawled from different subreddits on type of cryptocurrecies. All informations provided by this script are for educational purposes only.
 
-```bash
-git clone https://github.com/<username>/<repo-name>.git
-npm install # or yarn install
-npm start  
-```
+## Built With
 
-Your app should be running on `http://localhost:3000` or whichever PORT number you specify.
+- Javascript
+- Node.js
+- puppetteer
+- cheerio(jquery)
 
-If your app had a different instructions to start, then you must edit this README.md file and list out the instructions to successfully run your code.
+To get a local copy up and running follow these simple example steps.
+
+To get a local copy up and running follow these simple example steps.
+- Open terminal
+- Clone this project by command git clone https://github.com/Geoelycom/Nodejs-webcrawler.git
+
+## Getting Started 
+- index.js will show you the javascript code of this project.
+
+### Prerequisites
+
+- IDE to edit and run the code (I've used Visual Studio Code 🔥).
+
+### Usage
+
+- For anyone who wants to information on cryptocurrencies.
+- Any one looking for inspiration on how to build their web scrapper/crawler
 
 
 
+## Author
+
+👤 **Ekenimoh Elyan (Geo)**
+
+- GitHub:[@Geoelycom](https://github.com/Geoelycom)
+- Twitter: [@Ely_codes](https://twitter.com/Ely_codes)
+- LinkedIn: [Ekenimoh Elyan](https://www.linkedin.com/in/Ekenimoh_sumaila-elyan/)
 
 
 
+## Live Demo
+
+[Live Demo Link]()
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
