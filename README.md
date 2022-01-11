@@ -14,8 +14,6 @@ Resources
 - cheerio(jquery)
 
 To get a local copy up and running follow these simple example steps.
-
-To get a local copy up and running follow these simple example steps.
 - Open terminal
 - Clone this project by command git clone https://github.com/Geoelycom/Nodejs-webcrawler.git
 
